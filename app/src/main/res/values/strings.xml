@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MobilRandevu</string>
+    <string name="endpoint">ip</string>
+    <string name="randevual">Randevu Al</string>
+    <string name="gecmisrandevular">Geçmiş Randevular</string>
+    <string name="gelecekrandevular">Gelecek Randevular</string>
+    <string name="hakkimizda">Hakkımızda</string>
+    <string name="cikis">Çıkış</string>
+    <string name="kapat">Kapat</string>
+    <string name="cikisyapilsinmi">Çıkış Yapılsın Mı?</string>
+    <string name="evet">Evet</string>
+    <string name="hayir">Hayır</string>
+    <string name="tamam">Tamam</string>
+    <string name="iptal">İptal</string>
+    <string name="saatseciniz">Saat Seçiniz</string>
+    <string name="ayarla">Ayarla</string>
+    <string name="randevuduzenle">Randevu Düzenle</string>
+</resources>

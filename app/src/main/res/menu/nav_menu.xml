@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navRandevuAl"
+        android:title="@string/randevual" />
+    <item
+        android:id="@+id/navGecmisRandevular"
+        android:title="@string/gecmisrandevular" />
+    <item
+        android:id="@+id/navGelecekRandevular"
+        android:title="@string/gelecekrandevular" />
+    <item
+        android:id="@+id/navHakkimizda"
+        android:title="@string/hakkimizda" />
+    <item
+        android:id="@+id/navCikis"
+        android:title="@string/cikis" />
+</menu>

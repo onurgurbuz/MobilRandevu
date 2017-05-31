@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbOgrenci"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Öğrenci" />
+
+        <RadioButton
+            android:id="@+id/rbAkademisyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akademisyen" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etOgrenciNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Öğrenci Numarası" />
+
+    <EditText
+        android:id="@+id/etAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adı" />
+
+    <EditText
+        android:id="@+id/etParola"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Parola"
+        android:inputType="textPassword" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btnKaydol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:padding="12dp"
+        android:text="Kaydol"
+        android:textColor="@color/white" />
+
+</LinearLayout>

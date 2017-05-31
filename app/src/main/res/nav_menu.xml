@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navRandevular"
+        android:icon="@drawable/ic_randevular"
+        android:title="@string/randevular" />
+    <item
+        android:id="@+id/navSatisIslemleri"
+        android:icon="@drawable/ic_satislar"
+        android:title="@string/satisislemleri" />
+    <item
+        android:id="@+id/navMusteriler"
+        android:icon="@drawable/ic_musteriler"
+        android:title="@string/musteriler" />
+    <item
+        android:id="@+id/navKasaIslemleri"
+        android:icon="@drawable/ic_kasa"
+        android:title="@string/kasaislemleri" />
+    <item
+        android:id="@+id/navBugun"
+        android:icon="@drawable/ic_bugun"
+        android:title="@string/bugun" />
+    <item
+        android:id="@+id/navRaporlar"
+        android:icon="@drawable/ic_raporlar"
+        android:title="@string/raporlar" />
+    <item
+        android:id="@+id/navHakkimizda"
+        android:icon="@drawable/ic_hakkimizda"
+        android:title="@string/hakkimizda" />
+    <item
+        android:id="@+id/navCikis"
+        android:icon="@drawable/ic_cikis"
+        android:title="@string/cikis" />
+</menu>
